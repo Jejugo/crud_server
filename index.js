@@ -1,5 +1,6 @@
 import express from "express";
 import { employeesData } from "./data.js";
+
 const app = express();
 
 // Getting data
