@@ -1,1 +1,4 @@
-FROM
+FROM mysql:8
+
+ENV MYSQL_DATABASE=crud_database
+ENV MYSQL_ROOT_PASSWORD=root
